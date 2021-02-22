@@ -266,6 +266,35 @@ Land
     SLUGMA,13,14
     SLUGMA,13,14
 #-------------------------------
+042 # MAP042
+15,10,10
+Land
+    BIDOOF,2,5
+    TAILLOW,2,5
+    SENTRET,2,5
+    WOOPER,2,5
+    BIDOOF,2,5
+    TAILLOW,2,5
+    SENTRET,2,5
+    WOOPER,2,5
+    SENTRET,2,5
+    WOOPER,2,5
+    EEVEE,2,5
+    EEVEE,2,5
+LandNight
+    BIDOOF,2,5
+    HOOTHOOT,2,5
+    SENTRET,2,5
+    SHELLOS,2,5
+    BIDOOF,2,5
+    HOOTHOOT,2,5
+    SENTRET,2,5
+    SHELLOS,2,5
+    SENTRET,2,5
+    SHELLOS,2,5
+    TYROGUE,2,5
+    TYROGUE,2,5
+#-------------------------------
 044 # Route 6
 25,10,10
 Land

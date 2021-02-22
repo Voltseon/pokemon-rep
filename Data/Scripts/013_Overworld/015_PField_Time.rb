@@ -9,16 +9,16 @@ end
 
 module PBDayNight
   HourlyTones = [
-    Tone.new(-70, -90,  15, 55),   # Night           # Midnight
-    Tone.new(-70, -90,  15, 55),   # Night
-    Tone.new(-70, -90,  15, 55),   # Night
-    Tone.new(-70, -90,  15, 55),   # Night
-    Tone.new(-60, -70,  -5, 50),   # Night
-    Tone.new(-40, -50, -35, 50),   # Day/morning
-    Tone.new(-40, -50, -35, 50),   # Day/morning     # 6AM
-    Tone.new(-40, -50, -35, 50),   # Day/morning
-    Tone.new(-40, -50, -35, 50),   # Day/morning
-    Tone.new(-20, -25, -15, 20),   # Day/morning
+    Tone.new(-40, -50,  5, 30),   # Night           # Midnight
+    Tone.new(-40, -50,  5, 30),   # Night
+    Tone.new(-40, -50,  5, 30),   # Night
+    Tone.new(-40, -50,  5, 30),   # Night
+    Tone.new(-35, -40,  -5, 30),   # Night
+    Tone.new(-20, -30, -15, 30),   # Day/morning
+    Tone.new(-20, -30, -15, 30),   # Day/morning     # 6AM
+    Tone.new(-20, -30, -15, 30),   # Day/morning
+    Tone.new(-20, -30, -15, 30),   # Day/morning
+    Tone.new(-10, -10, -5, 10),   # Day/morning
     Tone.new(  0,   0,   0,  0),   # Day
     Tone.new(  0,   0,   0,  0),   # Day
     Tone.new(  0,   0,   0,  0),   # Day             # Noon
@@ -27,12 +27,12 @@ module PBDayNight
     Tone.new(  0,   0,   0,  0),   # Day/afternoon
     Tone.new(  0,   0,   0,  0),   # Day/afternoon
     Tone.new(  0,   0,   0,  0),   # Day/afternoon
-    Tone.new( -5, -30, -20,  0),   # Day/evening     # 6PM
-    Tone.new(-15, -60, -10, 20),   # Day/evening
-    Tone.new(-15, -60, -10, 20),   # Day/evening
-    Tone.new(-40, -75,   5, 40),   # Night
-    Tone.new(-70, -90,  15, 55),   # Night
-    Tone.new(-70, -90,  15, 55)    # Night
+    Tone.new( -5, -15, -10,  0),   # Day/evening     # 6PM
+    Tone.new(-5, -35, -5, 10),   # Day/evening
+    Tone.new(-5, -35, -5, 10),   # Day/evening
+    Tone.new(-20, -40,   5, 20),   # Night
+    Tone.new(-40, -50,  5, 30),   # Night
+    Tone.new(-40, -50,  5, 30)    # Night
   ]
   @cachedTone = nil
   @dayNightToneLastUpdate = nil

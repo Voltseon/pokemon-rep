@@ -3,13 +3,13 @@
 [000]
 PlayerA = POKEMONTRAINER_Red,trchar000,boy_bike,boy_surf,boy_run,boy_surf,boy_fish_offset,boy_fish_offset
 PlayerB = POKEMONTRAINER_Leaf,trchar001,girl_bike,girl_surf,girl_run,girl_surf,girl_fish_offset,girl_fish_offset
-TrainerVictoryME = Battle victory trainer.ogg
-WildVictoryME = Battle victory wild.ogg
-TrainerBattleBGM = Battle trainer.mid
-SurfBGM = Surfing.mid
-BicycleBGM = Bicycle.mid
+TrainerVictoryME = HGSSBattleVictoryTrainer.ogg
+WildVictoryME = HGSSBattleVictoryWild.ogg
+TrainerBattleBGM = HGSS-118-BattleTrainer.ogg
+SurfBGM = HGSS-170-Surf.ogg
+BicycleBGM = HGSS-155-Bike.ogg
 Home = 3,7,5,8
-WildBattleBGM = Battle wild.mid
+WildBattleBGM = HGSS-110-BattleWild.ogg
 #-------------------------------
 [001]
 # Intro
@@ -160,6 +160,13 @@ MapPosition = 0,14,6
 Outdoor = true
 ShowArea = true
 #-------------------------------
+[032]
+# dorp 1
+Weather = Rain,5
+Bicycle = true
+Outdoor = true
+ShowArea = true
+#-------------------------------
 [034]
 # Ice Cave
 BattleBack = cave1
@@ -208,6 +215,14 @@ MapSize = 1,111
 MapPosition = 0,11,7
 Outdoor = true
 BicycleAlways = true
+ShowArea = true
+#-------------------------------
+[042]
+# MAP042
+BattleBack = Field
+Weather = Rain,5
+Bicycle = true
+Outdoor = true
 ShowArea = true
 #-------------------------------
 [044]
