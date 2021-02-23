@@ -161,7 +161,7 @@ Outdoor = true
 ShowArea = true
 #-------------------------------
 [032]
-# dorp 1
+# Tidal Town
 Weather = Rain,5
 Bicycle = true
 Outdoor = true
@@ -218,9 +218,15 @@ BicycleAlways = true
 ShowArea = true
 #-------------------------------
 [042]
-# MAP042
+# Route 1
 BattleBack = Field
 Weather = Rain,5
+Bicycle = true
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[043]
+# Subterra City
 Bicycle = true
 Outdoor = true
 ShowArea = true
