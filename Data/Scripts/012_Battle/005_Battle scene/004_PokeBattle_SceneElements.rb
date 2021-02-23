@@ -376,8 +376,8 @@ end
 class AbilitySplashBar < SpriteWrapper
   attr_reader :battler
 
-  TEXT_BASE_COLOR   = Color.new(0,0,0)
-  TEXT_SHADOW_COLOR = Color.new(248,248,248)
+  TEXT_BASE_COLOR   = Color.new(248,248,248)
+  TEXT_SHADOW_COLOR = Color.new(0,0,0)
 
   def initialize(side,viewport=nil)
     super(viewport)
