@@ -189,7 +189,7 @@ class PokemonBag_Scene
     @sprites["rightarrow"].y       = 76
     @sprites["rightarrow"].visible = (!@choosing || numfilledpockets>1)
     @sprites["rightarrow"].play
-    @sprites["itemlist"] = Window_PokemonBag.new(@bag,@filterlist,lastpocket,168,-8,314,40+32+ITEMSVISIBLE*32)
+    @sprites["itemlist"] = Window_PokemonBag.new(@bag,@filterlist,lastpocket,168,-2,314,28+32+ITEMSVISIBLE*32)
     @sprites["itemlist"].viewport    = @viewport
     @sprites["itemlist"].pocket      = lastpocket
     @sprites["itemlist"].index       = @bag.getChoice(lastpocket)

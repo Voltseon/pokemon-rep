@@ -38,5 +38,7 @@
 47,East,8,52,West,0
 # Route 2 (21) - Route 7 (47)
 21,East,77,47,West,0
-# dorp 1 (32) - MAP042 (42)
+# Subterra City (43) - Route 1 (42)
+43,South,5,42,North,0
+# Tidal Town (32) - Route 1 (42)
 32,North,2,42,South,0
