@@ -1,9 +1,9 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[LEADER_Brock,Liam]
-LoseText = "That was only the half of it!"
-Pokemon = TOGEPI,10
-Pokemon = SABLEYE,11
+[YOUNGSTER,Liam]
+LoseText = "Incredible right?!"
+Pokemon = TAILLOW,3
+Pokemon = SHELLOS,4
 #-------------------------------
 #-------------------------------
 [CAMPER,Liam]

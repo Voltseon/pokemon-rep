@@ -1648,3 +1648,34 @@ Color = Yellow
 FormName = Original Color
 Color = Red
 Pokedex = This gorgeous Magearna looks as it did at the time of its invention. Its luxurious decoration pleased the king's daughter.
+#-------------------------------
+[SHINX,1]
+Type1 = FIRE
+BaseStats = 45,65,34,45,40,34
+Abilities = RIVALRY,INTIMIDATE
+HiddenAbility = GUTS
+Moves = 1,TACKLE,5,LEER,9,WILLOWISP,11,BABYDOLLEYES,13,EMBER,17,BITE,21,ROAR,25,SWAGGER,29,FIREFANG,33,CRUNCH,37,SCARYFACE,41,LAVAPLUME,45,FLAREBLITZ
+Color = Red
+Kind = Flame
+Pokedex = All of its fur lits if danger is sensed. It flees while the foe is momentarily burnt.
+#-------------------------------
+[LUXIO,1]
+Type1 = FIRE
+BaseStats = 60,85,49,60,60,49
+Abilities = RIVALRY,INTIMIDATE
+HiddenAbility = GUTS
+Moves = 1,TACKLE,1,LEER,5,LEER,9,WILLOWISP,13,EMBER,18,BITE,23,ROAR,28,SWAGGER,33,FIREFANG,38,CRUNCH,43,SCARYFACE,48,LAVAPLUME,53,FLAREBLITZ
+Color = Red
+Kind = Flame
+Pokedex = Its claws spark embers hot enough to cause fainting. They live in small groups.
+#-------------------------------
+[LUXRAY,1]
+Type1 = FIRE
+BaseStats = 80,120,79,70,95,79
+Abilities = RIVALRY,INTIMIDATE
+HiddenAbility = GUTS
+Moves = 1,SUNNYDAY,1,TACKLE,1,LEER,1,WILLOWISP,5,LEER,9,WILLOWISP,13,EMBER,18,BITE,23,ROAR,28,SWAGGER,35,FIREFANG,42,CRUNCH,49,SCARYFACE,56,LAVAPLUME,63,FLAREBLITZ,67,SUNNYDAY
+Color = Red
+Kind = Flame
+Pokedex = It has eyes that can see through anything. It spots and captures prey hiding behind objects.
+#-------------------------------

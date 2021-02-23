@@ -1,0 +1,23 @@
+Devs: Lihumeg & Voltseon
+
+Gen 1-5 Pokemon Overworlds- MissingLukey, help-14, Kymoyonian, cSc-A7X, 2and2makes5, Pokegirl4ever, Fernandojl, Silver-Skies, TyranitarDark, Getsuei-H, Kid1513, Milomilotic11, Kyt666, kdiamo11, Chocosrawlooid, Syledude, Gallanty, Gizamimi-Pichu, 2and2makes5, Zyon17,LarryTurbo, spritesstealer
+Gen 6 Overworlds-princess-pheonix, LunarDusk, Wolfang62, TintjeMadelintje101, piphybuilder88
+Gen 7 Overworlds-Larry Turbo
+Gen 8 Overworlds- SageDeoxys, Wolfang62
+
+Following Pokemon EX: Golisopod User, Help-14, zingzags, Rayd12smitty, mej71, Help-14, PurpleZaffre, Akizakura16
+
+Marin: Footprints, Utilities, Better Fast Forward, Overworld Shadows, HMItems
+
+LukaSJ: Utilities
+
+Tileset: Magiscarf, Kyle Dove, Voltseon
+
+Voltseon's Handy Tools
+
+ItemBag: Boonzeet
+
+FIRELIGHT TECHNOLOGIES PTY LTD. - FMOD Ex API
+Enterbrain - RGSS
+Nuri Yuri - RGSS Linker, RGSS FmodEx, Audio (FmodEx)
+GiraPrimal - LOOP_TABLE
