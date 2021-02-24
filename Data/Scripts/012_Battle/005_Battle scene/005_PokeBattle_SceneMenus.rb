@@ -356,7 +356,7 @@ class FightMenuDisplay < BattleMenuBase
         #       The pixel is at coordinates 10,34 in the button box. If you
         #       change the graphic, you may want to change/remove the below line
         #       of code to ensure the font is an appropriate colour.
-        moveNameBase = button.bitmap.get_pixel(10,button.src_rect.y+34)
+        moveNameBase = Color.new(80,80,80)
       end
       textPos.push([m.name,x,y,2,moveNameBase,TEXT_SHADOW_COLOR])
     end
