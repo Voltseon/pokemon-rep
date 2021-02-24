@@ -30,6 +30,14 @@ Events.onWildPokemonCreate += proc { |_sender, e|
   end
 }
 
+# Make all wild Pokémon have a chance to have their hidden ability.
+Events.onWildPokemonCreate+=proc {|sender,e|
+  pokemon=e[0]
+  if rand(50) < 1
+    pokemon.setAbility(2)
+  end
+}
+
 # This is the basis of a trainer modifier.  It works both for trainers loaded
 # when you battle them, and for partner trainers when they are registered.
 # Note that you can only modify a partner trainer's Pokémon, and not the trainer
