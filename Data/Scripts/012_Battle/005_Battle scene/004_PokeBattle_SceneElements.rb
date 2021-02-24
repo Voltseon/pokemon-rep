@@ -12,8 +12,8 @@ class PokemonDataBox < SpriteWrapper
   # Maximum time in seconds to make a change to the HP bar.
   HP_BAR_CHANGE_TIME = 1.0
   STATUS_ICON_HEIGHT = 16
-  NAME_BASE_COLOR         = Color.new(72,72,72)
-  NAME_SHADOW_COLOR       = Color.new(184,184,184)
+  NAME_BASE_COLOR         = Color.new(54,39,32)
+  NAME_SHADOW_COLOR       = Color.new(151,159,134)
   MALE_BASE_COLOR         = Color.new(48,96,216)
   MALE_SHADOW_COLOR       = NAME_SHADOW_COLOR
   FEMALE_BASE_COLOR       = Color.new(248,88,40)

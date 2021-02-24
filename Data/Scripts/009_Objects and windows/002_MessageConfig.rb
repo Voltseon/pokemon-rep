@@ -1,15 +1,15 @@
 module MessageConfig
   FontName        = "Power Green"
   # in Graphics/Windowskins/ (specify empty string to use the default windowskin)
-  TextSkinName    = "speech hgss 1"
+  TextSkinName    = "speech dp 1"
   ChoiceSkinName  = "choice 1"
   WindowOpacity   = 255
   TextSpeed       = nil   # can be positive to wait frames or negative to
                           # show multiple characters in a single frame
   LIGHTTEXTBASE   = Color.new(248,248,248)
   LIGHTTEXTSHADOW = Color.new(72,80,88)
-  DARKTEXTBASE    = Color.new(80,80,88)
-  DARKTEXTSHADOW  = Color.new(160,160,168)
+  DARKTEXTBASE    = Color.new(54,39,32)
+  DARKTEXTSHADOW  = Color.new(151,159,134) 
   # 0 = Pause cursor is displayed at end of text
   # 1 = Pause cursor is displayed at bottom right
   # 2 = Pause cursor is displayed at lower middle side

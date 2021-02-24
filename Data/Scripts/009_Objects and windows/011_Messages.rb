@@ -1039,8 +1039,8 @@ def pbMessageDisplay(msgwindow,message,letterbyletter=true,commandProc=nil)
   text.gsub!(/\\pog/i,"\\b") if $Trainer && $Trainer.female?
   text.gsub!(/\\pg/i,"")
   text.gsub!(/\\pog/i,"")
-  text.gsub!(/\\b/i,"<c3=3050C8,D0D0C8>")
-  text.gsub!(/\\r/i,"<c3=E00808,D0D0C8>")
+  text.gsub!(/\\b/i,"<c3=008EAA,C2CBB9>")
+  text.gsub!(/\\r/i,"<c3=FF4A39,C2CBB9>")
   text.gsub!(/\\[Ww]\[([^\]]*)\]/) {
     w = $1.to_s
     if w==""

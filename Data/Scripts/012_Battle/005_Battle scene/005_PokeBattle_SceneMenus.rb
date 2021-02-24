@@ -216,7 +216,7 @@ class FightMenuDisplay < BattleMenuBase
      Color.new(248,72,72),Color.new(136,48,48),    # Red, zero PP
      Color.new(248,136,32),Color.new(144,72,24),   # Orange, 1/4 of total PP or less
      Color.new(248,192,0),Color.new(144,104,0),    # Yellow, 1/2 of total PP or less
-     TEXT_BASE_COLOR,TEXT_SHADOW_COLOR             # Black, more than 1/2 of total PP
+     Color.new(54,39,32),Color.new(151,159,134)             # Black, more than 1/2 of total PP
   ]
   MAX_MOVES = 4   # Number of moves to display at once
 
@@ -287,8 +287,8 @@ class FightMenuDisplay < BattleMenuBase
       # Create message box (shows type and PP of selected move)
       @msgBox = Window_AdvancedTextPokemon.newWithSize("",
          self.x+320,self.y,Graphics.width-320,Graphics.height-self.y,viewport)
-      @msgBox.baseColor   = TEXT_BASE_COLOR
-      @msgBox.shadowColor = TEXT_SHADOW_COLOR
+      @msgBox.baseColor   = Color.new(54,39,32)
+      @msgBox.shadowColor = Color.new(151,159,134) 
       pbSetNarrowFont(@msgBox.contents)
       addSprite("msgBox",@msgBox)
       # Create command window (shows moves)
@@ -356,7 +356,7 @@ class FightMenuDisplay < BattleMenuBase
         #       The pixel is at coordinates 10,34 in the button box. If you
         #       change the graphic, you may want to change/remove the below line
         #       of code to ensure the font is an appropriate colour.
-        moveNameBase = Color.new(80,80,80)
+        moveNameBase = Color.new(46,46,46)
       end
       textPos.push([m.name,x,y,2,moveNameBase,TEXT_SHADOW_COLOR])
     end
