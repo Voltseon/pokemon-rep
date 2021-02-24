@@ -338,6 +338,37 @@ ItemHandlers::UseInField.add(:EXPALLOFF,proc { |item|
   next 1
 })
 
+# Vial item
+ItemHandlers::UseInField.add(:VIAL,proc{|item|
+  case $game_variables[69]
+  when 0
+    Kernel.pbMessage(_INTL("You do not have any charges left..."))
+    $PokemonBag.pbChangeItem(:VIAL,:EMPTYVIAL) #this should never happen btw
+  when 1
+    Kernel.pbMessage("You have 1 charge left.")
+    if Kernel.pbConfirmMessage("Would you like to heal you Pokémon?")
+      $game_variables[69] -= 1
+      for i in $Trainer.party
+       i.heal
+      end
+      Kernel.pbMessage(_INTL("Your Pokémon were fully healed."))
+      Kernel.pbMessage(_INTL("You have no more charges left."))
+      $PokemonBag.pbChangeItem(:VIAL,:EMPTYVIAL)
+     end
+  else
+    Kernel.pbMessage(_INTL("You have {1} charge(s) left.",$game_variables[69]))
+    if Kernel.pbConfirmMessage("Would you like to heal you Pokémon?")
+      $game_variables[69] -= 1
+      for i in $Trainer.party
+       i.heal
+      end
+      Kernel.pbMessage(_INTL("Your Pokémon were fully healed."))
+      Kernel.pbMessage(_INTL("{1} charge(s) remain!",$game_variables[69]))
+     end
+   end
+  next 1
+})
+
 #===============================================================================
 # UseOnPokemon handlers
 #===============================================================================

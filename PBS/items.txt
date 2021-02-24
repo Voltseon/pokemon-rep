@@ -648,3 +648,5 @@
 633,MEGARING,Mega Ring,Mega Rings,8,0,"This ring contains an untold power that somehow enables Pokémon carrying Mega Stones to Mega Evolve.",0,0,6,
 #-------------------------------
 634,KINGSLETTER,King's Letter,King's Letters,8,0,"A special letter meant for the king. William gave it to you in order to warn the king about something. I don't think opening it is a good idea.",0,0,6,
+635,VIAL,Vial,Vials,8,0,"Heals your party. Recharges at the PokéCenter.",2,0,6,
+636,EMPTYVIAL,Vial,Vials,8,0,"This vial is empty, recharge it at the PokéCenter.",2,0,6,
